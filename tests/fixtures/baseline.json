@@ -1,0 +1,142 @@
+[
+  {
+    "name": "square",
+    "patch": {
+      "patternId": "square",
+      "edgeSeed": 23,
+      "bandBias": 0.25
+    }
+  },
+  {
+    "name": "sharp",
+    "patch": {
+      "patternId": "sharp",
+      "edgeSeed": 23,
+      "bandBias": 0.25
+    }
+  },
+  {
+    "name": "rounded",
+    "patch": {
+      "patternId": "rounded",
+      "edgeSeed": 23,
+      "bandBias": 0.25
+    }
+  },
+  {
+    "name": "wave",
+    "patch": {
+      "patternId": "wave",
+      "edgeSeed": 23,
+      "bandBias": 0.25
+    }
+  },
+  {
+    "name": "jagged",
+    "patch": {
+      "patternId": "jagged",
+      "edgeSeed": 23,
+      "bandBias": 0.25
+    }
+  },
+  {
+    "name": "gravel",
+    "patch": {
+      "patternId": "gravel",
+      "edgeSeed": 23,
+      "bandBias": 0.25
+    }
+  },
+  {
+    "name": "boulder",
+    "patch": {
+      "patternId": "boulder",
+      "edgeSeed": 23,
+      "bandBias": 0.25
+    }
+  },
+  {
+    "name": "thorn",
+    "patch": {
+      "patternId": "thorn",
+      "edgeSeed": 23,
+      "bandBias": 0.25
+    }
+  },
+  {
+    "name": "coast",
+    "patch": {
+      "patternId": "coast",
+      "edgeSeed": 23,
+      "bandBias": 0.25
+    }
+  },
+  {
+    "name": "moss",
+    "patch": {
+      "patternId": "moss",
+      "edgeSeed": 23,
+      "bandBias": 0.25
+    }
+  },
+  {
+    "name": "billow",
+    "patch": {
+      "patternId": "billow",
+      "edgeSeed": 23,
+      "bandBias": 0.25
+    }
+  },
+  {
+    "name": "noise",
+    "patch": {
+      "patternNoise": ["white", "blue"],
+      "patternNoiseStrength": 0.6,
+      "patternNoiseSeed": 937
+    }
+  },
+  {
+    "name": "ribbon",
+    "patch": {
+      "ribbonAlgo": "rope",
+      "ribbonAmount": 0.7,
+      "ribbonPeriod": 8,
+      "ribbonShades": 3
+    }
+  },
+  {
+    "name": "texture",
+    "patch": {
+      "textureAlgoA": "brick_wall",
+      "textureAlgoB": "water",
+      "textureSeedA": 78,
+      "textureSeedB": 49,
+      "bandSteps": 5
+    }
+  },
+  {
+    "name": "transparent",
+    "patch": {
+      "transparentB": true,
+      "textureAlgoA": "cells",
+      "hardEdgeB": true
+    }
+  },
+  {
+    "name": "overrides",
+    "patch": {
+      "patternNoise": ["white"],
+      "patternNoiseStrength": 1
+    },
+    "overrides": {
+      "noiseTargets": ["edge"],
+      "noiseColours": {
+        "edge": {
+          "r": 255,
+          "g": 0,
+          "b": 0
+        }
+      }
+    }
+  }
+]
